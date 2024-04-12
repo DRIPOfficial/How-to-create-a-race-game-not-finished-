@@ -1,2 +1,2 @@
 # How-to-create-a-race-game-not-finished-
-blah blah blah
+Im working about it, this are the scripts that i finished.
