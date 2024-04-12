@@ -1,0 +1,18 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ObjectSpawner : MonoBehaviour
+{
+    public GameObject PlanePrefab;
+
+    private void Start()
+    {
+        InvokeRepeating("SpawnPlane", 0f, 4.95f);
+    }
+
+    private void SpawnPlane()
+    {
+        Instantiate(PlanePrefab, transform.position, Quaternion.identity);
+    }
+}
