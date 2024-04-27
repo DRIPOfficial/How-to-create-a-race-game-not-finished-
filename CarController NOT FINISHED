@@ -1,0 +1,12 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CarController : MonoBehaviour
+{
+    public float Speed;
+    public float MaxSpeed;
+    public float MoveBorderX;
+    public float Traction;
+    public float Controll;
+}
