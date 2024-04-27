@@ -8,7 +8,7 @@ public class ObjectSpawner : MonoBehaviour
 
     private void Start()
     {
-        InvokeRepeating("SpawnPlane", 0f, 4.95f);
+        InvokeRepeating("SpawnPlane", 0f, 4.90f);
     }
 
     private void SpawnPlane()
